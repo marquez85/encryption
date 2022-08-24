@@ -7,9 +7,8 @@ setup(
    author='PLAXIS_FM',
    author_email='fpvsm85@gmail.com',
    py_modules=['example'],
-   entry_points={
-       'console_script':[
-           'encryption=encryption',
-           ],
-       },
+   entry_points='''
+        [console_scripts]
+        example=example:example
+    ''',
 )
