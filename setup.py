@@ -6,7 +6,7 @@ setup(
    description='essencial py files to run to connect plaxis',
    author='PLAXIS_FM',
    author_email='fpvsm85@gmail.com',
-   py_modules=['encryption'],
+   py_modules=['encryption.py'],
    entry_points={
        'console_script':[
            'encryption=encryption.main:main',
