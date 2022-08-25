@@ -7,6 +7,7 @@ setup(
    author='PLAXIS_FM',
    author_email='fpvsm85@gmail.com',
    py_modules=['encryption.py'],
+   url="https://github.com/marquez85/encryption",
    install_requires=[],
    entry_points={
        'console_script':[
